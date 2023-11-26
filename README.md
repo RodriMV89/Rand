@@ -5,6 +5,6 @@
 **RP and PED**
 
 ### gitHub training
-[DataCamp Course](https://campus.datacamp.com/courses/github-concepts/)
+![DataCamp Course](https://campus.datacamp.com/courses/github-concepts/)
 
 ###### Credits:

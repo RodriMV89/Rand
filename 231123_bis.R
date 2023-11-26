@@ -1,6 +1,6 @@
 getwd
 getwd()
-setwd("C:/Users/Rodrigo/Documents/ENVIRONMENTAL MODELLING MASTER/Subjects/3rd semester/Random processes/RP/")
+setwd("")
 # --- random processes ---
 PDFout = "231123-NILEdetPart.pdf"
 TXTout = "231123-NILETXT.txt"
@@ -11,7 +11,6 @@ stYEAR = tsp(DTN)[1]; endYEAR = tsp(DTN)[2]
 ROKy = stYEAR:endYEAR
 #-----parametric model
 ROKy2 = ROKy^2
-
 ROKy3 = ROKy^3
 model0 <- lm(DTN~1) # simple constant model
 model1 <- lm(DTN~ROKy) # includes a linear term using the ROKy variable
